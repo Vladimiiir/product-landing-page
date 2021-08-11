@@ -1,0 +1,69 @@
+body {
+    font-family: "Open Sans";
+}
+
+#logo-img {
+    width: 200px;
+    height: 150px;
+}
+
+/* User Story 15 */
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* User Story 13 */
+    /* position: fixed; */ 
+}
+
+/* User Story 15 */
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {
+    width: 100%;
+}
+
+.sign-up-page {
+    /* background-color: black; */
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-form {
+    text-align: center;
+}
+
+.video-page {
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-page {
+    text-align: center;
+    align-items: center;
+}
+
+iframe {
+    margin-top: 10px;
+}
+
+.extra {
+    width: 100%;
+    height:600px;
+    background-image: url(https://www.impactplus.com/hubfs/what-is-the-purpose-of-marketing.jpg);
+}
+
+/* User Story 14 */
+@media only screen and (max-width: 1000px) {
+    body {
+      background-color: lightblue;
+    }
+  }
